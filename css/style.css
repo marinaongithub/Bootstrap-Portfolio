@@ -1,5 +1,41 @@
 
 .content-wrapper {
     margin: 50px;
+}
+
+.customNav {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(121, 49, 163) !important;
+    /* background: transparent; */
+    z-index: 10;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+
+.customNav a {
+    color: white !important;
+  }
+
+.customNav img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}  
+
+.navbar-brand {
+    font-family: "Satisfy", sans-serif;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+ 
+.jumbotron {
+    height: calc(100vh - 25px);
+    padding-top: 95px;
 
 }
