@@ -1,16 +1,13 @@
-
-.content-wrapper {
-    margin: 50px;
-}
+/* Navigation bar */
 
 .customNav {
     position: fixed;
     width: 100%;
-    background-color: rgb(121, 49, 163) !important;
-    /* background: transparent; */
+    background-color: #2a0332 !important;
     z-index: 10;
     font-family: "Poppins", sans-serif;
     font-size: 15px;
+    color: white !important;
 }
 
 .customNav a {
@@ -24,18 +21,52 @@
 }  
 
 .navbar-brand {
-    font-family: "Satisfy", sans-serif;
+    font-family: "Lobster", sans-serif;
     font-size: 25px;
     margin-left: 15px;
+}
+
+.customNav p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    padding-top: 3px;
+    margin: 0px;
 }
 
 .navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
 }
+
+/* Hero */
+
+.content-wrapper {
+    margin: 50px;
+}
  
 .jumbotron {
-    height: calc(100vh - 25px);
-    padding-top: 95px;
-
+    background-image: url(../images/purple-keyboard.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: calc(90vh - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    text-align: left;
 }
+
+.jumbotron h1 {
+    font-family: "Poppins", sans-serif !important;
+    font-size: 75px;
+    font-weight: 100 ;
+}
+
+.jumbotron p {
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+}
+
+/* Project Cards section */
