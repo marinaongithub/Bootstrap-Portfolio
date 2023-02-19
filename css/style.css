@@ -1,3 +1,7 @@
+body{ 
+    overflow-x :hidden; 
+    }
+
 /* Navigation bar */
 
 .customNav {
@@ -40,9 +44,9 @@
 
 /* Hero */
 
-.content-wrapper {
-    margin: 50px;
-}
+/* .container-fluid {
+    margin: auto;
+} */
  
 .jumbotron {
     background-image: url(../images/purple-keyboard.jpg);
@@ -50,6 +54,7 @@
     background-repeat: no-repeat;
     background-position: center; 
     height: calc(90vh - 20px);
+    width: 102%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -58,10 +63,11 @@
     text-align: left;
 }
 
+
 .jumbotron h1 {
     font-family: "Poppins", sans-serif !important;
     font-size: 75px;
-    font-weight: 100 ;
+
 }
 
 .jumbotron p {
@@ -70,3 +76,20 @@
 }
 
 /* Project Cards section */
+
+.row {
+    justify-content: center;
+}
+
+.cardContainer {
+    
+}
+
+.card-body .btn-primary {
+    background-color: #2338c8;
+    border-color: #2338c8;
+    position: center;
+
+}
+
+
