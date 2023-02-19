@@ -1,5 +1,7 @@
 :root {
-    --main-dark:#2a0332
+    --main-dark: #2a0332;
+    --main-light: #cb64ff;
+
 }
 
 body{ 
@@ -66,10 +68,8 @@ body{
     margin-bottom: 1rem;
 }
 
-
 .jumbotron h1 {
     font-size: 70px;
-
 }
 
 .jumbotron p {
@@ -108,7 +108,7 @@ h2 {
     height: 240px;
 }
 
-.project-body .btn-primary {
+.btn {
     background-color: var(--main-dark);
     border-color: var(--main-dark);
 }
@@ -117,6 +117,9 @@ h2 {
     height: 155px;
 }
 
+.btn:hover {
+    background-color: var(--main-light);
+}
 
 /* Skills section */
 
@@ -140,7 +143,7 @@ h2 {
 #about {
     margin: 20px;
     padding: 20px;
-    background-color: #280333;
+    background-color: var(--main-dark);
     color: white;
 }
 
@@ -150,6 +153,27 @@ h2 {
 }
 
 /* Footer section */
+#contact {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    margin: 20px;
+}
+
+i {
+    color: var(--main-light);
+}
+
+i:hover {
+    color: var(--main-dark);
+} 
 
 footer p {
     text-align: center;
