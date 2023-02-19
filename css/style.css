@@ -1,3 +1,7 @@
+:root {
+    --main-dark:#2a0332
+}
+
 body{ 
     overflow-x :hidden; 
     font-family: "Poppins", sans-serif;
@@ -7,8 +11,8 @@ body{
 
 .customNav {
     position: fixed;
-    width: 100%;
-    background-color: #2a0332 !important;
+    width: 100vw;
+    background-color: var(--main-dark) !important;
     z-index: 10;
     font-size: 15px;
     color: white !important;
@@ -53,13 +57,13 @@ body{
     background-repeat: no-repeat;
     background-position: center; 
     height: calc(100vh - 20px);
-    width: 105%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     color: white;
     text-align: left;
+    margin-bottom: 1rem;
 }
 
 
@@ -73,36 +77,79 @@ body{
 }
 
 /* Project Cards section */
+.container-fluid {
+    /* border-bottom: solid 0.5px var(--main-dark); */
+    margin-bottom: 1rem;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--main-dark);
+    font-weight:bold;
+}
 
 .row {
     justify-content: center;
 }
 
 .cardContainer {
-    margin-bottom: 20px;    
+    margin-bottom: 20px;  
 }
 
-.card-img-top {
+.project-img {
     height: 240px;
+    padding: 10px;
 }
 
-.card-body {
+.project-body {
     display: flex;
     flex-direction: column;
-}
-
-.card-body .btn-primary {
-    background-color: #280333;
-    border-color: #280333;
-}
-
-.card-body {
     height: 240px;
 }
 
-.card-text {
+.project-body .btn-primary {
+    background-color: var(--main-dark);
+    border-color: var(--main-dark);
+}
+
+.project-txt {
     height: 155px;
 }
+
+
+/* Skills section */
+
+.skills-card {
+    border-radius: 50%;
+}
+
+.skills-logo {
+    height: 200px;
+    width: 200px;
+    margin: 50px auto;
+}
+
+.skills-title{
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* About me section */
+#about {
+    margin: 20px;
+    padding: 20px;
+    background-color: #280333;
+    color: white;
+}
+
+#about h2 {
+    text-align: left;
+    color: white;
+}
+
+/* Footer section */
 
 footer p {
     text-align: center;
