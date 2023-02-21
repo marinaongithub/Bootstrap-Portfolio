@@ -1,6 +1,7 @@
 :root {
     --main-dark: #2a0332;
     --main-light: #cb64ff;
+    --gradient: linear-gradient(90deg, rgba(41,2,49,1) 0%, rgba(56,77,228,1) 0%, rgba(203,100,255,1) 100%);
 
 }
 
@@ -24,11 +25,11 @@ body{
     color: white !important;
   }
 
-.customNav img {
+/* .customNav img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-}  
+}   */
 
 .navbar-brand span {
     font-family: "Lobster", sans-serif;
@@ -69,7 +70,9 @@ body{
 }
 
 .jumbotron img {
+    background: linear-gradient(white, white) padding-box, linear-gradient(var(--main-dark), var(--main-light), #fbeb1d)border-box;
     border-radius: 50%;
+    border: 5px solid transparent;
 }
 
 .jumbotron h1 {
