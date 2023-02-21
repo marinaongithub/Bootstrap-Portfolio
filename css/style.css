@@ -30,7 +30,7 @@ body{
     border-radius: 50%;
 }  
 
-.navbar-brand {
+.navbar-brand span {
     font-family: "Lobster", sans-serif;
     font-size: 25px;
     margin-left: 15px;
@@ -68,6 +68,10 @@ body{
     margin-bottom: 1rem;
 }
 
+.jumbotron img {
+    border-radius: 50%;
+}
+
 .jumbotron h1 {
     font-size: 70px;
 }
@@ -76,11 +80,13 @@ body{
     font-size: 23px;
 }
 
-/* Project Cards section */
+/* Content */
+
 .container-fluid {
-    /* border-bottom: solid 0.5px var(--main-dark); */
-    margin-bottom: 1rem;
+    margin-bottom: 1rem !important;
 }
+
+/* Project Cards section */
 
 h2 {
     text-align: center;
