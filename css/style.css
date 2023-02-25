@@ -10,6 +10,7 @@ body{
     font-family: "Poppins", sans-serif;
     }
 
+
 /* Navigation bar */
 
 .customNav {
@@ -25,12 +26,6 @@ body{
     color: white !important;
   }
 
-/* .customNav img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}   */
-
 .navbar-brand span {
     font-family: "Lobster", sans-serif;
     font-size: 25px;
@@ -45,14 +40,8 @@ body{
 
 .navbar-nav {
     margin-left: auto;
-    margin-right: 0 !important;
+    margin-right: 15px !important;
 }
-
-/* Hero */
-
-/* .container-fluid {
-    margin: auto;
-} */
  
 .jumbotron {
     background-image: url(../images/purple-keyboard.jpg);
@@ -83,11 +72,13 @@ body{
     font-size: 23px;
 }
 
+
 /* Content */
 
 .container-fluid {
     margin-bottom: 1rem !important;
 }
+
 
 /* Project Cards section */
 
@@ -130,6 +121,7 @@ h2 {
     background-color: var(--main-light);
 }
 
+
 /* Skills section */
 
 .skills-card {
@@ -137,8 +129,8 @@ h2 {
 }
 
 .skills-logo {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     margin: 50px auto;
 }
 
@@ -187,6 +179,7 @@ i:hover {
 footer p {
     text-align: center;
     font-style: italic;
+    font-size: 15px;
 }
 
 
