@@ -1,6 +1,7 @@
 :root {
     --main-dark: #2a0332;
     --main-light: #cb64ff;
+    --third-color: #4376f4;
     --gradient: linear-gradient(90deg, rgba(41,2,49,1) 0%, rgba(56,77,228,1) 0%, rgba(203,100,255,1) 100%);
 
 }
@@ -26,6 +27,10 @@ body{
     color: white !important;
   }
 
+.customNav a:hover {
+    color: var(--main-light) !important;
+}
+
 .navbar-brand span {
     font-family: "Lobster", sans-serif;
     font-size: 25px;
@@ -41,10 +46,6 @@ body{
 .navbar-nav {
     margin-left: auto;
     margin-right: 15px !important;
-}
-
-.navbar-nav a:hover {
-    color: var(--main-light) !important;
 }
  
 .jumbotron {
@@ -115,7 +116,14 @@ h2 {
 .btn {
     background-color: var(--main-dark);
     border-color: var(--main-dark);
+    border-radius: 30px;
+    margin: 2px;
 }
+
+/* .code {
+    background-color: var(--third-color);
+    border-color: var(--third-color);
+} */
 
 .project-txt {
     height: 155px;
@@ -123,7 +131,13 @@ h2 {
 
 .btn:hover {
     background-color: var(--main-light);
+    border: var(--main-light);
 }
+
+/* .code:hover {
+    background-color: #53b2fa;
+    border-color: #53b2fa;
+} */
 
 
 /* Skills section */
