@@ -165,6 +165,7 @@ h2 {
     background-color: var(--main-dark);
     color: white;
     text-align: justify;
+    border-radius: 8px;
 }
 
 #about h2 {
