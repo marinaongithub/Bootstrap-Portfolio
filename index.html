@@ -31,7 +31,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-item nav-link" href="#work">Work</a>
-            <a class="nav-item nav-link" href="#skills">Skills</a>
+            <!-- <a class="nav-item nav-link" href="#skills">Skills</a> -->
             <a class="nav-item nav-link" href="#about">About me</a>
             <a class="nav-item nav-link" href="#contact">Contact</a>
           </div>
@@ -43,7 +43,8 @@
     <div class="jumbotron" id="welcome">
         <img src="./images/profile.jpg">
         <h1 class="display-4">My Portfolio.</h1>
-        <p class="lead">Have a look around to discover my projects, learn a bit more about me and my skills.</p>
+        <p class="lead">Have a look around to discover my projects.</p>
+        <!-- <p>learn a bit more about me and my skills.</p>    -->
         <p>Contact me if you like my work!</p>
     </div>
     <!-- End jumbotron -->
@@ -54,20 +55,32 @@
         <div class="row">
             <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
                 <div class="card">
-                <img src="images/OdeToCode.png" class="card-img-top project-img" alt="...">
+                <img src="images/avocardio.gif" class="card-img-top project-img" alt="Avocardio app screenshot">
                 <div class="card-body project-body">
-                    <p class="card-text project-txt">OdeToCode is an homage to poetry and technology. 
-                        The users can discover new poems, search for their favourite ones and write reflections about them in a dedicated journal.</p>
+                    <p class="card-text project-txt">Avocardio is a React based fitness project. Users are able to search exercises by type (body part, muscle group, and equipment). Search results are return in GIF format, that the user can easily follow along. The ExerciceDB API powers the results displayed in this project.</p>
                     <div class="text-center">   
-                        <a href="https://marinabtc.github.io/OdeToCode/" target="_blank" rel="noreferrer" class="btn btn-primary ">Live project</a>
-                        <a href="https://marinabtc.github.io/OdeToCode/" target="_blank" rel="noreferrer" class="btn btn-primary code">See Code</a>
+                        <a href="https://avocardio.netlify.app/" target="_blank" rel="noreferrer" class="btn btn-primary ">Live project</a>
+                        <a href="https://github.com/marinaongithub/avocardio-fitness-app" target="_blank" rel="noreferrer" class="btn btn-primary code">See Code</a>
                     </div>
                 </div>
                 </div>
             </div>
             <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
                 <div class="card">
-                <img src="images/weather-dashboard.png" class="card-img-top project-img" alt="...">
+                <img src="images/OdeToCode.png" class="card-img-top project-img" alt="OdeToCode app screenshot">
+                <div class="card-body project-body">
+                    <p class="card-text project-txt">OdeToCode is an homage to poetry and technology. 
+                        The users can discover new poems, search for their favourite ones and write reflections about them in a dedicated journal. The ExerciceDB API powers the results displayed in this project.</p>
+                    <div class="text-center">   
+                        <a href="https://marinabtc.github.io/OdeToCode/" target="_blank" rel="noreferrer" class="btn btn-primary ">Live project</a>
+                        <a href="https://github.com/marinaongithub/OdeToCode" target="_blank" rel="noreferrer" class="btn btn-primary code">See Code</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                <img src="images/weather-dashboard.png" class="card-img-top project-img" alt="Weather app screenshot">
                 <div class="card-body project-body">
                     <p class="card-text project-txt">The app allows users to consult today's weather as well as a 5-day forecast for the cities of their choice. It retrieves data using the Open Weather API.</p>
                     <div class="text-center"> 
@@ -77,9 +90,12 @@
                 </div>
                 </div>
             </div>
+        </div>
+
+        <div class="row">
             <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
                 <div class="card">
-                <img src="images/code-quiz.png" class="card-img-top project-img" alt="...">
+                <img src="images/code-quiz.png" class="card-img-top project-img" alt="Code quiz screenshot">
                 <div class="card-body project-body">
                     <p class="card-text project-txt">A multiple-choice coding quiz that can keep track of scores and quiz-takers' initials. 
                         It enables users to train on coding quiz challenges to prepare for exams or interviews.</p>
@@ -91,12 +107,9 @@
                 </div>
                 </div>
             </div>
-        </div>
-
-        <div class="row">
             <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
                 <div class="card">
-                <img src="images/workday-planner.png" class="card-img-top project-img" alt="...">
+                <img src="images/workday-planner.png" class="card-img-top project-img" alt="Work plannner app screenshot">
                 <div class="card-body project-body ">
                     <p class="card-text project-txt">A simple calendar app allowing users to save events for each hour of their working day.
                     </p>
@@ -109,7 +122,7 @@
             </div>
             <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
                 <div class="card">
-                <img src="images/password-generator.png" class="card-img-top project-img" alt="...">
+                <img src="images/password-generator.png" class="card-img-top project-img" alt="Password generator screenshot">
                 <div class="card-body project-body">
                     <p class="card-text project-txt">Helps users to create strong passwords for their online accounts.
                         Users can customize the length and chose to include special characters, numbers, uppercase and lowercase characters.</p>
@@ -125,39 +138,40 @@
     <!-- End of Project Cards -->
 
     <!-- Skills cards-->
-    <div class="container-fluid" id="skills">
-        <h2>My skills.</h2>
+    <!-- <div class="container-fluid" id="skills">
+        <h2>My skills.</h2> -->
         <!-- Skill 1 -->
-        <div class="card-deck justify-content-center">
+        <!-- <div class="card-deck justify-content-center">
             <div class="card skills-card col-lg-3 col-md-6 col-sm-8">
             <img src="images/HTML5_Badge_512.png" class="card-img-top skills-logo" alt="...">
             <div class="card-body">
                 <h5 class="card-title skills-title">HTML</h5>
             </div>
-            </div>
+            </div> -->
             <!-- Skill 2 -->
-            <div class="card skills-card col-lg-3 col-md-6 col-sm-8">
+            <!-- <div class="card skills-card col-lg-3 col-md-6 col-sm-8">
             <img src="images/CSS.svg" class="card-img-top skills-logo" alt="...">
             <div class="card-body">
                 <h5 class="card-title skills-title">CSS</h5>
             </div>
-            </div>
+            </div> -->
             <!-- Skill 3 -->
-            <div class="card skills-card col-lg-3 col-md-6 col-sm-8">
+            <!-- <div class="card skills-card col-lg-3 col-md-6 col-sm-8">
             <img src="images/javascript.png" class="card-img-top skills-logo" alt="...">
                 <h5 class="card-title skills-title">JavaScript</h5>
             </div>
             </div>
-        </div>
+        </div> -->
         <!-- End of Skills cards -->
 
         <!-- About me section -->
         <div class="About-me" id="about">
             <h2>About me</h2>
-            <p>Driven by a natural inclination towards learning and problem-solving, I pursued a Masters in Data Science. 
-                It was during this program, that I uncovered my passion for programming. Since then, I have actively sought out opportunities to expand my skillset and have been involved in several web development projects (using HTML, CSS, JavaScript and React). 
-                In fact, I recently completed a Bootcamp in Front-End Web Development to further enhance my skills. 
-                I am currently seeking a collaborative work environment that will allow me to contribute to the development of meaningful solutions while providing opportunities for personal and professional growth. 
+            <p>Curious and driven by a natural inclination towards problem solving. It was during the completion of a Master’s degree in
+                Data Science that I uncovered a passion for programming. Having actively sought out opportunities to expand my skillset
+                I joined a Front-End Web Development bootcamp where I worked on various web development projects using HTML,
+                CSS, JavaScript and React. Currently looking for a collaborative work environment where I can contribute to the
+                development of meaningful solutions.                  
             </p>
         </div>
         <!-- End of About me section -->
