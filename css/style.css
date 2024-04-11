@@ -49,7 +49,8 @@ body{
 }
  
 .jumbotron {
-    background-image: url(../images/purple-keyboard-tiny.jpg);
+    background-image: url(../images/purple-keyboard.webp);
+    background-color: var(--main-dark);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
@@ -115,15 +116,16 @@ h2 {
 
 .btn {
     background-color: var(--main-dark);
-    border-color: var(--main-dark);
+    border: 1px solid var(--main-dark);
     border-radius: 30px;
     margin: 2px;
+    color: #fff;
 }
 
-/* .code {
-    background-color: var(--third-color);
-    border-color: var(--third-color);
-} */
+.code {
+    background-color: #fff;
+    color: var(--main-dark);
+}
 
 .project-txt {
     height: 155px;
@@ -131,13 +133,14 @@ h2 {
 
 .btn:hover {
     background-color: var(--main-light);
-    border: var(--main-light);
+    border-color: var(--main-light);
 }
 
-/* .code:hover {
-    background-color: #53b2fa;
-    border-color: #53b2fa;
-} */
+.code:hover {
+    background-color: #fff;
+    border-color: var(--main-light);
+    color: var(--main-light);
+}
 
 
 /* Skills section */
