@@ -147,12 +147,12 @@ h2 {
     height: 155px;
 }
 
-.btn:hover {
+.btn:hover, .btn:active {
     background-color: var(--main-light);
     border-color: var(--main-light);
 }
 
-.code:hover {
+.code:hover, .code:active {
     background-color: #fff;
     border-color: var(--main-light);
     color: var(--main-light);
