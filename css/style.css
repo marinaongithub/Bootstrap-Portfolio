@@ -46,10 +46,14 @@ body{
 .navbar-nav {
     margin-left: auto;
     margin-right: 15px !important;
-}
- 
-.jumbotron {
+} 
+
+
+.jumbo-wrap {
     background-color: var(--main-dark);
+}
+
+.jumbotron {
     background-image: url(../images/purple-keyboard.webp);
     background-size: cover;
     background-repeat: no-repeat;
@@ -62,6 +66,18 @@ body{
     color: white;
     text-align: left;
     margin-bottom: 1rem;
+    animation: fadeInAnimation ease-in 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .jumbotron img {
@@ -181,14 +197,13 @@ h2 {
     display: flex;
     list-style-type: none;
     justify-content: center;
-}
-
-ul {
     padding: 0px;
+    gap: 4.5rem;
 }
 
 li {
-    margin: 20px;
+    width: 1.5rem;
+    text-align: center;
 }
 
 i {
