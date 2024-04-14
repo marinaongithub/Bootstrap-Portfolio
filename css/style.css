@@ -1,7 +1,6 @@
 :root {
     --main-dark: #2a0332;
     --main-light: #cb64ff;
-    --third-color: #4376f4;
     --gradient: linear-gradient(90deg, rgba(41,2,49,1) 0%, rgba(56,77,228,1) 0%, rgba(203,100,255,1) 100%);
 
 }
@@ -19,7 +18,7 @@ body{
     width: 100vw;
     background-color: var(--main-dark) !important;
     z-index: 10;
-    font-size: 15px;
+    font-size: 1.1rem;
     color: white !important;
 }
 
@@ -150,14 +149,15 @@ h2 {
 .btn:hover, .btn:active {
     background-color: var(--main-light);
     border-color: var(--main-light);
+    color: #fff;
+    outline-style: none;
 }
 
-.code:hover, .code:active {
+.btn.code:hover, .btn.code:active {
     background-color: #fff;
     border-color: var(--main-light);
-    color: var(--main-light);
+    color: var(--main-light)
 }
-
 
 /* Skills section */
 
