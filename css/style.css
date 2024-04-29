@@ -53,6 +53,7 @@ body{
 }
 
 .jumbotron {
+    background-color: var(--main-dark);
     background-image: url(../images/purple-keyboard.webp);
     background-size: cover;
     background-repeat: no-repeat;
