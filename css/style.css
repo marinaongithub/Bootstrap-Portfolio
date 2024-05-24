@@ -101,6 +101,7 @@ body{
     background: linear-gradient(white, white) padding-box, linear-gradient(var(--main-dark), var(--main-light), #fbeb1d)border-box;
     border-radius: 50%;
     border: 5px solid transparent;
+    margin-top: 10rem;
 }
 
 .jumbotron h1 {
@@ -110,7 +111,6 @@ body{
 .jumbotron p {
     font-size: 23px;
 }
-
 
 /* Content */
 
