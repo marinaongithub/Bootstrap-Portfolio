@@ -47,6 +47,23 @@ body{
     margin-right: 15px !important;
 } 
 
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: 0;
+}
+
+.navbar-toggler {
+    width: 55.33px;
+}
+
+/* hide cross when burger shown */
+.navbar-toggler.collapsed .close-icon {
+    display: none;
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    display: inline;
+}
 
 .jumbo-wrap {
     background-color: var(--main-dark);
