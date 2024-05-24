@@ -86,6 +86,7 @@ body{
     animation: fadeInAnimation ease-in 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    text-shadow: 0 0 3px #000;
 }
 
 @keyframes fadeInAnimation {
@@ -101,7 +102,7 @@ body{
     background: linear-gradient(white, white) padding-box, linear-gradient(var(--main-dark), var(--main-light), #fbeb1d)border-box;
     border-radius: 50%;
     border: 5px solid transparent;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 .jumbotron h1 {
